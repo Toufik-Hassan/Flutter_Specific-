@@ -1,0 +1,36 @@
+import 'package:flutter/material.dart';
+
+main(){
+  runApp(sifat());
+}
+class sifat extends StatefulWidget {
+  const sifat({super.key});
+
+  @override
+  State<sifat> createState() => _sifatState();
+}
+
+class _sifatState extends State<sifat> {
+  @override
+  Widget build(BuildContext context) {
+    return MaterialApp(
+      title: "Ok",
+      home:  loser(),
+
+    );
+  }
+}
+class loser extends StatefulWidget {
+  const loser({super.key});
+
+  @override
+  State<loser> createState() => _jaanState();
+}
+
+class _jaanState extends State<loser> {
+  @override
+  Widget build(BuildContext context) {
+    return Scaffold();
+  }
+}
+
